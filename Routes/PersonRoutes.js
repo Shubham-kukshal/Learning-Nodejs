@@ -25,7 +25,8 @@ router.post('/',async(req,res)=>{
       res.status(200).json(data);
     }catch(err){
   console.log(err);
-  res.status(500).json({error:"internal server error"})
+  res.status(500).json({error:"internal server error"}) 
+// console.log(results);
     }
   })
 //Person Get data end
